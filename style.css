@@ -1,0 +1,1181 @@
+/* TOC
+    1. Global
+    2. Sections
+    3. Nav
+*/
+
+/* Global */
+body{
+    /* CSS background-repeat Property
+    https://www.w3schools.com/cssref/pr_background-repeat.asp
+    */
+    background-color:lightblue;
+
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color:#4aaaa5;
+    border-bottom:1px solid #cccccc;
+    font-weight:bold;
+    margin-bottom:20px;
+    padding-bottom:20px
+}
+h1 { 
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.5em;
+}
+h3 {
+    font-size: 1.17em;
+}
+h4 {
+    font-size: 1em;
+}
+h5 { 
+    font-size: .83em;
+}
+h6 { 
+    font-size: .67em;
+}
+p {
+    line-height:32px;
+    margin-bottom:20px;
+}
+footer p {
+    padding-top:20px;
+}
+
+/* Utility Classes */
+.fl-l {float: left}
+.fl-r{float: right}
+.sans-serif {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.serif {
+    font-family: 'Times New Roman', Times, serif;
+}
+.cursive {
+    font-family: cursive;
+}
+.txt-left {
+    text-align: left;
+}
+.txt-center {
+    text-align: center;
+}
+.txt-right {
+    text-align: right;
+}
+.clearfix {
+    overflow: auto;
+}
+
+/* Sections */
+header{
+    height:80px;
+    background-color:#fff;
+    border-bottom: 3px solid #cccccc;
+}
+.logo{
+    width:200px;
+    height:80px;
+    background-color:#4aaaa5;
+    color:#fff;    
+}
+.main-body{
+    margin-top: 40px;
+    margin-bottom: 40px; 
+}
+.main-content {
+    background-color: #fff;
+    width: 610px;
+    padding: 20px;    
+}
+
+.sidebar {
+    background-color: #fff;
+    width: 230px;
+    padding: 20px;
+}
+footer{
+    border-top: 8px solid #4aaaa5;
+    height:80px;
+    background-color:#666666;   
+}
+
+/* Nav */
+.main-nav{
+    padding: 25px 0 0 0;
+}
+.main-nav nav ul {
+    list-style: none;
+}
+.main-nav nav ul li {
+    float: left;
+    padding: 5px 20px;
+    border-right: 1px solid #efefef;
+}
+/* Pseudo-classes
+https://www.w3schools.com/css/css_pseudo_classes.asp 
+*/
+.main-nav nav ul li:last-child {
+    border-right:none;
+}
+.main-nav nav ul li a {
+    color: #777777;
+    text-decoration: none;
+}
+ul.social-icons li {
+    float: left
+}
+ul.social-icons li img {
+    height: 75px;
+    width: 75px;
+}
+ul.social-icons li img.stackoverflow {
+    width: 68px;
+    height: 68px;
+    padding: 4px 0 0 4px;
+}
+/* Forms 
+https://www.w3schools.com/css/css_form.asp
+*/
+input[type=text], input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.natalie{
+    margin-left:10px;
+    margin-top:10px;
+}
+
+.nat{
+   float:left;
+   margin: 0px 4px 0px 2px;
+}
+.row-one {
+    display: block;
+    margin: 20px 100px;
+}
+
+
+div.img-wrapper{
+    float:left;
+    position:relative;
+    margin:10px;
+}
+
+
+.box1{
+    height:200px;
+    width:200px;
+}
+
+.box2{
+    height:200px;
+    width:200px;
+}
+
+.box3{
+    height:200px;
+    width:200px;
+}
+
+.box4{
+    height:200px;
+    width:200px;
+}
+
+div.description1{
+    position:absolute;
+    bottom:20px;
+    left:0px;
+    width:100%;
+    background-color:lightblue;
+    color:#ffffff;
+    
+}
+
+div.description1 p{
+    padding:10px;
+    margin:0px;
+    font-size:30px;
+    text-align:center;
+}
+div.description2{
+    position:absolute;
+    bottom:20px;
+    left:0px;
+    width:100%;
+    background-color:lightblue;
+    color:#ffffff;
+    
+}
+
+div.description2 p{
+    padding:10px;
+    margin:0px;
+    font-size:30px;
+    text-align:center;
+}
+
+div.description3{
+    position:absolute;
+    bottom:20px;
+    left:0px;
+    width:100%;
+    background-color:lightblue;
+    color:#ffffff;
+    
+}
+
+div.description3 p{
+    padding:10px;
+    margin:0px;
+    font-size:30px;
+    text-align:center;
+}
+
+div.description4{
+    position:absolute;
+    bottom:20px;
+    left:0px;
+    width:100%;
+    background-color:lightblue;
+    color:#ffffff;
+    
+}
+
+div.description4 p{
+    padding:10px;
+    margin:0px;
+    font-size:30px;
+    text-align:center;
+}
+
+@media screen and (max-width: 980px){
+body{
+
+    /* CSS background-repeat Property
+    https://www.w3schools.com/cssref/pr_background-repeat.asp
+    */
+    background-color:lightblue;
+
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+.container {
+    width: 980px;
+    margin: 0 auto;
+
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color:#4aaaa5;
+    border-bottom:1px solid #cccccc;
+    font-weight:bold;
+    margin-bottom:20px;
+    padding-bottom:20px
+}
+h1 { 
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.5em;
+}
+h3 {
+    font-size: 1.17em;
+}
+h4 {
+    font-size: 1em;
+}
+h5 { 
+    font-size: .83em;
+}
+h6 { 
+    font-size: .67em;
+}
+p {
+    line-height:32px;
+    margin-bottom:20px;
+}
+footer p {
+    padding-top:20px;
+}
+
+/* Utility Classes */
+.fl-l {float: left}
+.fl-r{float: right}
+.sans-serif {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.serif {
+    font-family: 'Times New Roman', Times, serif;
+}
+.cursive {
+    font-family: cursive;
+}
+.txt-left {
+    text-align: left;
+}
+.txt-center {
+    text-align: center;
+}
+.txt-right {
+    text-align: right;
+}
+.clearfix {
+    overflow: auto;
+}
+
+/* Sections */
+header{
+    height:80px;
+    background-color:#fff;
+    border-bottom: 3px solid #cccccc;
+}
+.logo{
+    width:200px;
+    height:80px;
+    background-color:#4aaaa5;
+    color:#fff;    
+}
+.main-body{
+    margin-top: 40px;
+    margin-bottom: 40px; 
+}
+.main-content {
+    background-color: #fff;
+    width: 400px;
+    padding: 40px;    
+    margin-left:90px;
+}
+
+.sidebar {
+    background-color: #fff;
+    width: 230px;
+    padding: 20px;
+    margin-right:100px;
+}
+footer{
+    border-top: 8px solid #4aaaa5;
+    height:80px;
+    background-color:#666666;   
+}
+
+/* Nav */
+.main-nav{
+    padding: 25px 0 0 0;
+}
+.main-nav nav ul {
+    list-style: none;
+}
+.main-nav nav ul li {
+    float: left;
+    padding: 5px 20px;
+    border-right: 1px solid #efefef;
+}
+/* Pseudo-classes
+https://www.w3schools.com/css/css_pseudo_classes.asp 
+*/
+.main-nav nav ul li:last-child {
+    border-right:none;
+}
+.main-nav nav ul li a {
+    color: #777777;
+    text-decoration: none;
+}
+ul.social-icons li {
+    float: left
+}
+ul.social-icons li img {
+    height: 75px;
+    width: 75px;
+}
+ul.social-icons li img.stackoverflow {
+    width: 68px;
+    height: 68px;
+    padding: 4px 0 0 4px;
+}
+/* Forms 
+https://www.w3schools.com/css/css_form.asp
+*/
+input[type=text], input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.natalie{
+    margin-left:10px;
+    margin-top:10px;
+}
+
+.nat{
+   float:left;
+   margin: 0px 4px 0px 2px;
+}
+.row-one {
+    display: block;
+    margin: 20px 100px;
+}
+
+
+div.img-wrapper{
+    float:left;
+    position:relative;
+    margin:10px;
+}
+
+
+.box1{
+    height:200px;
+    width:200px;
+}
+
+.box2{
+    height:200px;
+    width:200px;
+}
+
+.box3{
+    height:200px;
+    width:200px;
+}
+
+.box4{
+    height:200px;
+    width:200px;
+}
+
+div.description1{
+    position:absolute;
+    bottom:20px;
+    left:0px;
+    width:100%;
+    height:40px;
+    color:#ffffff;
+    
+}
+
+div.description1 p{
+    padding:10px;
+    margin:0px;
+    font-size:30px;
+    text-align:center;
+}
+div.description2{
+    position:absolute;
+    bottom:20px;
+    left:0px;
+    width:100%;
+    background-color:#4B1741;
+    color:#ffffff;
+    
+}
+
+div.description2 p{
+    padding:10px;
+    margin:0px;
+    font-size:30px;
+    text-align:center;
+}
+
+div.description3{
+    position:absolute;
+    bottom:20px;
+    left:0px;
+    width:100%;
+    background-color:#4B1741;
+    color:#ffffff;
+    
+}
+
+div.description3 p{
+    padding:10px;
+    margin:0px;
+    font-size:30px;
+    text-align:center;
+}
+
+div.description4{
+    position:absolute;
+    bottom:20px;
+    left:0px;
+    width:100%;
+    background-color:#4B1741;
+    color:#ffffff;
+    
+}
+
+div.description4 p{
+    padding:10px;
+    margin:0px;
+    font-size:30px;
+    text-align:center;
+}
+
+
+}
+
+@media screen and (max-width:768px){
+    body{
+
+    /* CSS background-repeat Property
+    https://www.w3schools.com/cssref/pr_background-repeat.asp
+    */
+    background-color:lightblue;
+
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+.container {
+    width: 768px;
+    margin: 0 auto;
+
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color:#4aaaa5;
+    border-bottom:1px solid #cccccc;
+    font-weight:bold;
+    margin-bottom:20px;
+    padding-bottom:20px
+}
+h1 { 
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.5em;
+}
+h3 {
+    font-size: 1.17em;
+}
+h4 {
+    font-size: 1em;
+}
+h5 { 
+    font-size: .83em;
+}
+h6 { 
+    font-size: .67em;
+}
+p {
+    line-height:32px;
+    margin-bottom:20px;
+}
+footer p {
+    padding-top:20px;
+}
+
+/* Utility Classes */
+.fl-l {float: left}
+.fl-r{float: right}
+.sans-serif {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.serif {
+    font-family: 'Times New Roman', Times, serif;
+}
+.cursive {
+    font-family: cursive;
+}
+.txt-left {
+    text-align: left;
+}
+.txt-center {
+    text-align: center;
+}
+.txt-right {
+    text-align: right;
+}
+.clearfix {
+    overflow: auto;
+}
+
+/* Sections */
+header{
+    height:80px;
+    background-color:#fff;
+    border-bottom: 3px solid #cccccc;
+}
+.logo{
+    width:200px;
+    height:80px;
+    background-color:#4aaaa5;
+    color:#fff;    
+}
+.main-body{
+    margin-top: 40px;
+    margin-bottom: 40px; 
+}
+.main-content {
+    background-color: #fff;
+    width: 500px;
+    padding: 40px;    
+    
+}
+
+
+
+
+.sidebar {
+    background-color: #fff;
+    width: 540px;
+    padding: 20px;
+    margin-top:40px;
+}
+footer{
+    border-top: 8px solid #4aaaa5;
+    height:80px;
+    background-color:#666666;   
+}
+
+/* Nav */
+.main-nav{
+    padding: 25px 0 0 0;
+}
+.main-nav nav ul {
+    list-style: none;
+}
+.main-nav nav ul li {
+    float: left;
+    padding: 5px 20px;
+    border-right: 1px solid #efefef;
+}
+/* Pseudo-classes
+https://www.w3schools.com/css/css_pseudo_classes.asp 
+*/
+.main-nav nav ul li:last-child {
+    border-right:none;
+}
+.main-nav nav ul li a {
+    color: #777777;
+    text-decoration: none;
+}
+ul.social-icons li {
+    float: left
+}
+ul.social-icons li img {
+    height: 75px;
+    width: 75px;
+}
+ul.social-icons li img.stackoverflow {
+    width: 68px;
+    height: 68px;
+    padding: 4px 0 0 4px;
+}
+/* Forms 
+https://www.w3schools.com/css/css_form.asp
+*/
+input[type=text], input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.natalie{
+    margin-left:10px;
+    margin-top:10px;
+}
+
+.nat{
+   float:left;
+   margin: 0px 4px 0px 2px;
+}
+.row-one {
+    display: block;
+    margin: 20px 100px;
+}
+
+
+div.img-wrapper{
+    float:left;
+    position:relative;
+    margin:10px;
+}
+
+
+.box1{
+    height:200px;
+    width:200px;
+}
+
+.box2{
+    height:200px;
+    width:200px;
+}
+
+.box3{
+    height:200px;
+    width:200px;
+}
+
+.box4{
+    height:200px;
+    width:200px;
+}
+
+div.description1{
+    position:absolute;
+    bottom:20px;
+    left:0px;
+    width:100%;
+    background-color:#4B1741;
+    color:#ffffff;
+    
+}
+
+div.description1 p{
+    padding:10px;
+    margin:0px;
+    font-size:30px;
+    text-align:center;
+}
+div.description2{
+    position:absolute;
+    bottom:20px;
+    left:0px;
+    width:100%;
+    background-color:#4B1741;
+    color:#ffffff;
+    
+}
+
+div.description2 p{
+    padding:10px;
+    margin:0px;
+    font-size:30px;
+    text-align:center;
+}
+
+div.description3{
+    position:absolute;
+    bottom:20px;
+    left:0px;
+    width:100%;
+    background-color:#4B1741;
+    color:#ffffff;
+    
+}
+
+div.description3 p{
+    padding:10px;
+    margin:0px;
+    font-size:30px;
+    text-align:center;
+}
+
+div.description4{
+    position:absolute;
+    bottom:20px;
+    left:0px;
+    width:100%;
+    background-color:#4B1741;
+    color:#ffffff;
+    
+}
+
+div.description4 p{
+    padding:10px;
+    margin:0px;
+    font-size:30px;
+    text-align:center;
+}
+}
+@media screen and (max-width:640px){
+    body{
+
+    /* CSS background-repeat Property
+    https://www.w3schools.com/cssref/pr_background-repeat.asp
+    */
+    background-color:lightblue;
+
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+.container {
+    width: 640px;
+    margin: 0 auto;
+
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color:#4aaaa5;
+    border-bottom:1px solid #cccccc;
+    font-weight:bold;
+    margin-bottom:20px;
+    padding-bottom:20px
+}
+h1 { 
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.5em;
+}
+h3 {
+    font-size: 1.17em;
+}
+h4 {
+    font-size: 1em;
+}
+h5 { 
+    font-size: .83em;
+}
+h6 { 
+    font-size: .67em;
+}
+p {
+    line-height:32px;
+    margin-bottom:20px;
+}
+footer p {
+    padding-top:20px;
+}
+
+/* Utility Classes */
+.fl-l {float: left}
+.fl-r{float: right}
+.sans-serif {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.serif {
+    font-family: 'Times New Roman', Times, serif;
+}
+.cursive {
+    font-family: cursive;
+}
+.txt-left {
+    text-align: left;
+}
+.txt-center {
+    text-align: center;
+}
+.txt-right {
+    text-align: right;
+}
+.clearfix {
+    overflow: auto;
+}
+
+/* Sections */
+header{
+    height:80px;
+    background-color:#fff;
+    border-bottom: 3px solid #cccccc;
+}
+.logo{
+    width:640px;
+    height:30px;
+    background-color:#4aaaa5;
+    color:#fff;    
+}
+.main-body{
+    margin-top: 40px;
+    margin-bottom: 40px; 
+}
+.main-content {
+    background-color: #fff;
+    width: 350px;
+    padding: 40px;    
+    
+}
+
+.sidebar {
+    background-color: #fff;
+    width: 390px;
+    padding: 20px;
+    margin-top:40px;
+    margin-right:120px;
+
+
+}
+footer{
+    border-top: 8px solid #4aaaa5;
+    height:80px;
+    background-color:#666666;   
+}
+
+/* Nav */
+.main-nav{
+    padding: 25px 0 0 0;
+
+
+
+}
+
+div.main-nav.fl-r{
+    float:none;
+    margin-left:160px;
+}
+
+
+.main-nav nav ul {
+    list-style: none;
+}
+.main-nav nav ul li {
+    float: left;
+    padding: 5px 20px;
+    border-right: 1px solid #efefef;
+    
+}
+/* Pseudo-classes
+https://www.w3schools.com/css/css_pseudo_classes.asp 
+*/
+.main-nav nav ul li:last-child {
+    border-right:none;
+}
+.main-nav nav ul li a {
+    color: #777777;
+    text-decoration: none;
+}
+ul.social-icons li {
+    float: left
+}
+ul.social-icons li img {
+    height: 75px;
+    width: 75px;
+}
+ul.social-icons li img.stackoverflow {
+    width: 68px;
+    height: 68px;
+    padding: 4px 0 0 4px;
+}
+/* Forms 
+https://www.w3schools.com/css/css_form.asp
+*/
+input[type=text], input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.natalie{
+    margin-left:10px;
+    margin-top:10px;
+    height:15px;
+}
+
+.nat{
+   float:left;
+   margin: 0px 4px 0px 2px;
+}
+.row-one {
+    display: block;
+    margin: 20px 100px;
+}
+
+
+div.img-wrapper{
+    float:left;
+    position:relative;
+    margin:10px;
+}
+
+
+.box1{
+    height:200px;
+    width:200px;
+}
+
+.box2{
+    height:200px;
+    width:200px;
+}
+
+.box3{
+    height:200px;
+    width:200px;
+}
+
+.box4{
+    height:200px;
+    width:200px;
+}
+
+div.description1{
+    position:absolute;
+    bottom:20px;
+    left:0px;
+    width:100%;
+    background-color:#4B1741;
+    color:#ffffff;
+    
+}
+
+div.description1 p{
+    padding:10px;
+    margin:0px;
+    font-size:30px;
+    text-align:center;
+}
+div.description2{
+    position:absolute;
+    bottom:20px;
+    left:0px;
+    width:100%;
+    background-color:#4B1741;
+    color:#ffffff;
+    
+}
+
+div.description2 p{
+    padding:10px;
+    margin:0px;
+    font-size:30px;
+    text-align:center;
+}
+
+div.description3{
+    position:absolute;
+    bottom:20px;
+    left:0px;
+    width:100%;
+    background-color:#4B1741;
+    color:#ffffff;
+    
+}
+
+div.description3 p{
+    padding:10px;
+    margin:0px;
+    font-size:30px;
+    text-align:center;
+}
+
+div.description4{
+    position:absolute;
+    bottom:20px;
+    left:0px;
+    width:100%;
+    background-color:#4B1741;
+    color:#ffffff;
+    
+}
+
+div.description4 p{
+    padding:10px;
+    margin:0px;
+    font-size:30px;
+    text-align:center;
+}
+
+
+}
